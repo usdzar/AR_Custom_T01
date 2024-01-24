@@ -3,18 +3,19 @@
   
   <head>
     <meta charset="utf-8">
-    <title>model-viewer demo</title>    
+    <title> AR Models </title>    
     <script type="module" src="https://unpkg.com/@google/model-viewer@1.0.0/dist/model-viewer.min.js"></script>
   </head>
 
   <style>
     model-viewer {
       width: 100%;
-      height: 250px;
+      height: 400px;
       background-color: silver;
     }
   </style>
-  model1
+  
+  model no.1
   <body>
     <model-viewer
       src="01_TM.glb"
@@ -27,11 +28,12 @@
     >
     </model-viewer>
   </body>
-model2
+  
+model no.2
   <body>
     <model-viewer
-      src="00_TM.glb"
-      ios-src="00_TM.usdz"
+      src="02_TM.glb"
+      ios-src="02_TM.usdz"
       ar
       camera-controls
       auto-rotate
@@ -41,6 +43,33 @@ model2
     </model-viewer>
   </body>
 
+  model no.3
+  <body>
+    <model-viewer
+      src="03_TM.glb"
+      ios-src="03_TM.usdz"
+      ar
+      camera-controls
+      auto-rotate
+      shadow-intensity = 2
+      shadow-softness = 2
+    >
+    </model-viewer>
+  </body>
+
+  model no.4
+  <body>
+    <model-viewer
+      src="04_TM.glb"
+      ios-src="04_TM.usdz"
+      ar
+      camera-controls
+      auto-rotate
+      shadow-intensity = 2
+      shadow-softness = 2
+    >
+    </model-viewer>
+  </body>
   
   
 </html>
